@@ -2,7 +2,7 @@
 
 import vlc
 flag=-1
-location="your location of songs"  #/home/desktop/music
+location="/home/aniket/Music/"
 l='\0'
 while(1):
 	print("choose the song :")
@@ -33,7 +33,6 @@ while(1):
 
 		if(y== '1'):
 			p.stop()
-			flag=1
 			break
 		elif(y== '2'):
 			p.pause()
@@ -43,22 +42,29 @@ while(1):
 				p.play()
 			elif(z == '2'):
 				p.stop()
-				flag=1
 				break
 			else:
 				print('choose correct option')
 		else:
 			print('choose correct option')
 	l='\0'
+	flag=-1
 	print("want to play more songs")	
 	print("1.YES\n0.NO")
-	q=int(input())
-	if(q == 0):
+	while(flag==-1):
+		q=int(input())
+		if(q == 0):
+			flag=0
+			break
+		elif(q == 1):
+			flag=1
+			continue
+		else:
+			print("enter correct option")
+			flag=-1
+	if(flag==0):
 		break
-	elif(q == 1):
-		continue
-	else:
-		print("enter correct option")
+	
 
 
 

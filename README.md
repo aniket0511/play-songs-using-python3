@@ -11,6 +11,6 @@ module required is vlc.
 
 vlc module installation :  
 type command :  
-pip install python-vlc   on terminal
-In python-IDLE 
+pip install python-vlc on terminal ,
+In python-IDLE ,
 import vlc 

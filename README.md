@@ -8,3 +8,6 @@ To play the song using code , the song should be in such format that can be acce
 FLAC is an audio coding format for lossless compression of digital audio, and is also the name of the free software project producing the FLAC tools, the reference software package that includes a codec implementation.
 
 module required is vlc.
+
+vlc module installation : 
+    type command :  sudo apt-get install vlc   on terminal

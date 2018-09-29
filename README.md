@@ -9,7 +9,8 @@ FLAC is an audio coding format for lossless compression of digital audio, and is
 
 module required is vlc.
 
-vlc module installation : 
-    type command :  pip install python-vlc   on terminal
-                    In python-IDLE 
-                    import vlc 
+vlc module installation :  
+type command :  
+pip install python-vlc   on terminal
+In python-IDLE 
+import vlc 

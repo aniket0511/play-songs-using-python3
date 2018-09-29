@@ -2,7 +2,7 @@
 
 import vlc
 flag=-1
-location="/home/aniket/Music/"
+location= "your location"    #"/home/MyComputer/Music/"
 l='\0'
 while(1):
 	print("choose the song :")

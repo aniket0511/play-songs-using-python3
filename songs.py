@@ -5,6 +5,8 @@ import vlc
 location="/home/aniket/Music/"
 
 print("choose the song :")
+#this songs have extension .flac 
+#you can add as many songs you want 
 print("1.circles-ananya birla\n2.Rockabye\n3.Believer\n4.see You again -Wiz khalifa\n5.Hym for the weekend")
 x=input('enter number :')
 

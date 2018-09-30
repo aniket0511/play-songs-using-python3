@@ -14,6 +14,6 @@ type command :
 
   	pip install python-vlc on terminal 
 
-In python-IDLE 
 
-To run code first download all files save it new folder then open in terminal and type command "python3 songs.py" , enjoy the music
+
+To run code first download all files save it new folder then open in terminal and type command "python3 songs.py" , after that program will notify you all the steps .

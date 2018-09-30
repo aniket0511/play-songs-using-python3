@@ -16,4 +16,4 @@ type command :
 
 In python-IDLE 
 
-import vlc 
+To run code first download all files save it new folder then open in terminal and type command "python3 songs.py" , enjoy the music
